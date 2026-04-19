@@ -8,8 +8,7 @@
     "dev": "vercel dev"
   },
   "dependencies": {
-    "@upstash/redis": "^1.37.0",
-    "@vercel/kv": "^1.0.1"
+    "@upstash/redis": "^1.37.0"
   },
   "engines": {
     "node": "20.x"
