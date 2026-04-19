@@ -2,10 +2,10 @@
   "name": "truecaller-vercel-integration",
   "version": "1.0.0",
   "description": "Truecaller One-Tap Sign-in with Vercel KV",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "vercel dev"
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "start:local": "node local-server.js"
   },
   "dependencies": {
     "@upstash/redis": "^1.37.0"

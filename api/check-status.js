@@ -4,6 +4,9 @@ const redis = Redis.fromEnv();
 
 export default async function handler(req, res) {
     const { requestId } = req.query;
+    if (!requestId) {
+        return res.status(400).json({ error: 'requestId is required' });
+    }
 
     const profile = await redis.get(`tc_session:${requestId}`);
 
