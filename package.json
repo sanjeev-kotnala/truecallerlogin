@@ -1,0 +1,16 @@
+{
+  "name": "truecaller-vercel-integration",
+  "version": "1.0.0",
+  "description": "Truecaller One-Tap Sign-in with Vercel KV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
